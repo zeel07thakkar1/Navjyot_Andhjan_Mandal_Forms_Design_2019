@@ -1,0 +1,31 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.pink_clr
+{
+	color: #c7002b !important;
+}
+.print_input
+{
+	border: none !important;
+	border-bottom: 2px solid gray !important;
+	height: 30px !important;
+}
+.pic
+{
+	width: 100%;
+	height: 250px;
+	border: 1px solid gray;
+}
+label
+{
+	color: black !important;
+	font-size: 14px;
+
+}
+td
+{
+	font-size: 14px;
+}

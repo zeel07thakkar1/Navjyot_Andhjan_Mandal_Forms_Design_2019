@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+
+
+<div class="avatar">
+
+
+<img src="https://creartproducts.com/savesharesend/public/../storage/profile_pictures/73772.2019-09-04.1567578970.jpg" id="photo_view" alt="people">
+
+
+<a id="edit_profile_photo" href="#" class="btn btn-white btn-xs pull-right" style="display: none; position:relative; margin-top:15px; margin-left:-19px;"><i class="fa fa-pencil"></i></a>
+<form action="#" method="POST" enctype="multipart/form-data" id="photo">
+<input type="hidden" name="_token" value="TmLmw4SOavyR7yRWVZyX5Ab4D6CHiG8vdH64NlZM">
+<input type="file" name="profile_picture" id="photo_select" style="display: none;">
+</form>
+</div>
+<script type="text/javascript">
+// hover effect
+$(document).on('mouseenter','#photo_view',function(){
+
+$("#edit_profile_photo").show();
+});
+$(document).on('mouseenter','#edit_profile_photo',function(){
+$("#edit_profile_photo").show();
+$("#photo_view").show();
+});
+$(document).on('mouseleave','#edit_profile_photo',function(){
+$('#photo_view').css('filter','');
+$("#edit_profile_photo").hide();
+});
+$(document).on('mouseleave','#photo_view',function(){
+$('#photo_view').css('filter','');
+$("#edit_profile_photo").hide();
+});
+$(document).on('click','#edit_profile_photo',function(){
+$("#edit_profile_photo").hide();
+
+});
+
+// click
+$('#edit_profile_photo').on('click',function(){
+$('#photo_select').click();
+
+});
+
+$('#photo_select').on('change',function(e){
+var filename = $(this).val();
+var valid_extensions = /(\.jpg)$/i;
+if(valid_extensions.test(filename))
+{
+showFile(this,'#photo_view');
+// showFile(this,'#topbar_profile_pic');
+}else{
+$.simplyToast('Please Upload A Valid JPG File!', 'danger');
+}
+
+});
+
+// showFile function
+function showFile(fileInput,img,showName){
+    if (fileInput.files[0]){
+      var reader = new FileReader();
+      reader.onload = function(e){
+        $(img).attr('src',e.target.result);
+      }
+      reader.readAsDataURL(fileInput.files[0]);
+      }
+     
+  }
+</script>
+
+
+</body>
+</html>

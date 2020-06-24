@@ -1,0 +1,271 @@
+
+.header
+{
+	height: auto;
+	/* border: 1px solid black; */
+}
+
+.bg_gary
+{
+	background-color: #e4e4e4;
+	height: auto;
+}
+.bg_white
+{
+	background-color: white;
+	height: auto;
+	border: 1px solid gray;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 10px;
+}
+input[type ='text']
+{
+	border: 2px solid #dad7d7 !important;
+	height: 40px !important;
+}
+input[type ='date']
+{
+	border: 2px solid #dad7d7 !important;
+	height: 40px !important;
+}
+select
+{
+	border: 2px solid #dad7d7 !important;
+	height: 40px !important;
+}
+.txt_area
+{
+	border: 2px solid #dad7d7 !important;
+}
+label
+{
+	font-weight: bold !important;
+	line-height: 1;
+
+}
+.title
+{
+	/* border: 1px solid black; */
+	height: auto;
+}
+.pink_clr
+{
+	color: #c7002b !important;
+}
+.logo
+{
+	height: 100px;
+	background-image: url('../imgs/Navjyot_logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
+.sub_btn
+{
+	background-color:#c7002b  !important;
+	color: white  !important; 
+	width: 100px  !important;
+	height: 45px  !important;
+	border-radius: 0px !important;
+}
+.sub_btn:hover
+{
+	background-color:black  !important;
+	
+}
+.clr_gray
+{
+	color: gray;
+	font-family: sans-serif;
+}
+/*--form3----------*/
+.img1
+{
+	border: 1px solid black;
+	height: 185px;
+	position: relative;
+}
+#pic1_female
+{
+	height: 182px ;
+	width: 100% ;
+}
+.img2
+{
+	border: 1px solid black;
+	height: 185px;
+	position: relative;
+}
+#pic2_male
+{
+	height: 182px;
+	width: 100%;
+}
+.edit1
+{
+	float: left;
+	
+	width: 100%;
+	/* border: 1px solid black; */
+	height: 35px;
+	top: 148px;
+	display: none;
+	position:absolute;
+	cursor: pointer;
+}
+.edit1 a
+{
+	background-color:#9f000cde;
+	height: 35px;
+	display: block;
+	opacity: 0.6;
+	color: white !important;
+	font-weight: bold;
+
+}
+/*----pic2-------*/
+.edit2
+{
+	float: left;
+	
+	width: 100%;
+	/* border: 1px solid black; */
+	height: 35px;
+	top: 148px;
+	display: none;
+	position:absolute;
+	cursor: pointer;
+}
+.edit2 a
+{
+	background-color:#9f000cde;
+	height: 35px;
+	display: block;
+	opacity: 0.6;
+	color: white !important;
+	font-weight: bold;
+
+}
+
+/**----document upload-----*/
+.document1
+{
+	height: 200px;
+	position: relative;
+	border: 1px solid black; 
+}
+.document2
+{
+	height: 200px;
+	position: relative;
+	border: 1px solid black; 
+}
+.document3
+{
+	height: 200px;
+	position: relative;
+	border: 1px solid black; 
+}
+#doc1
+{
+	width:100%;
+	height: 198px;
+}
+#doc2
+{
+	width:100%;
+	height: 198px;
+}
+#doc3
+{
+	width:100%;
+	height: 198px;
+}
+.upload_doc_div1
+{
+	
+	
+	width: 100%;
+	border: 2px solid black;
+	height: 200px;
+	top: 0px;
+	display: none;
+	position:absolute;
+	cursor: pointer;
+	background-color: gray;
+	opacity: 0.6;
+}
+.upload_doc_div1 a
+{
+	color: white;
+	display: block;
+	height: 200px;
+	font-weight: bold;
+	font-size: 170px;
+
+}
+.upload_doc_div2
+{
+	
+	
+	width: 100%;
+	border: 2px solid black;
+	height: 200px;
+	top: 0px;
+	display: none;
+	position:absolute;
+	cursor: pointer;
+	background-color: gray;
+	opacity: 0.6;
+}
+.upload_doc_div2 a
+{
+	color: white;
+	display: block;
+	height: 200px;
+	font-weight: bold;
+	font-size: 170px;
+
+}
+
+/*----for all documents upload--------------*/
+
+.document
+{
+	width:100%;
+	height: 150px;
+	position: relative;
+}
+.document_show_image
+{
+	width:100%;
+	height: 150px;
+}
+.document_hidden_block
+{
+	width: 100%;
+	border: 2px solid black;
+	height: 150px;
+	top: 0px;
+	display: none;
+	position:absolute;
+	cursor: pointer;
+	background-color: gray;
+	opacity: 0.6;
+}
+.document_hidden_block a
+{
+	color: white;
+	display: block;
+	height: 150px;
+	font-weight: bold;
+	font-size: 140px;
+
+}
+/*---print form page---*/
+.print_input
+{
+	 border: none !important;  
+	border-bottom: 2px solid gray !important;
+}
